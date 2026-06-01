@@ -1,0 +1,8 @@
+print("Hellow World")
+print(5)
+print ("bye")
+print (17*13)
+print(2+3)
+print(10-2)
+print(34/2)
+print(34+4*4/2-1)

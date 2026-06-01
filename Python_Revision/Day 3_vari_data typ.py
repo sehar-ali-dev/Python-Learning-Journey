@@ -1,0 +1,1 @@
+# today we will disciss about variables and data types in python,
