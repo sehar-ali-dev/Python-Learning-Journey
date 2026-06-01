@@ -1,0 +1,1 @@
+print("Sehar is good")

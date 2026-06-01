@@ -1,0 +1,8 @@
+food= "orange"
+age=24
+area= 6780.98
+name= "sehar"
+print(type(food))
+print(type(age))
+print(type(area))
+print(type(name))

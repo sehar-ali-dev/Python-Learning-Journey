@@ -1,0 +1,46 @@
+# #Assingment 1
+# #creat a dictionarystoring meanings of 3 english words
+# meaning={"Blessing": "gift",
+#           "sacrifices": "to give up something fot someone",
+#           "excited": ""
+#           }
+# print(type(meaning))
+# print(meaning)
+# print(meaning.items())
+# #creat a set numbers and show union and intersection with other set .
+# seta={23, 34, 54, 12, 61, 22}
+# setb={34, 12, 21, 34, 54, 43}
+# union=seta.union(setb)
+# intersection=seta.intersection(setb)
+# print(type(union))
+# print(type(intersection))
+# print(union)
+# print(intersection)
+# Creating two sets
+# set_a = {1, 2, 3, 4, 5}
+# set_b = {4, 5, 6, 7, 8}
+
+#  1. Union (|)
+#  This combines all unique elements from both sets.
+# union_result = set_a.union(set_b)
+# #Or you can use the pipe operator: set_a | set_b
+
+# 2. Intersection (&)
+# This shows only the elements that are present in BOTH sets.
+# intersection_result = set_a.intersection(set_b)
+#  Or you can use the ampersand operator: set_a & set_b
+
+#  Displaying the results
+# print("Set A:", set_a)
+# print("Set B:", set_b)
+# print("-" * 30)
+# print("Union (All unique numbers):", union_result)
+# print("Intersection (Common numbers):", intersection_result)
+# try to add both integer 9 and float 9.0 to set and observe ehat heppen.
+# (hint: you can covert one into a sring to make both unique.)
+both_integer={9, 9.0}
+print(type(both_integer))
+print(both_integer)
+both_integer={9, str(9.0)}
+print(type(both_integer))
+print(both_integer)

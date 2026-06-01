@@ -1,0 +1,7 @@
+My name is Sehar Ali.
+I am 18 years old and I live in Lahore, Pakistan.
+Alongside my studies, I am currently learning programming and AI technology.
+I have a deep interest in computers and coding. 
+In my free time, I love writing code, building chatbots, and exploring new technologies. 
+My ultimate goal is to become a successful AI and Software Developer so that I can create smart solutions like social media automation bots. 
+I am a hardworking, positive, and curious person who believes that every bug in code makes us a better developer."
