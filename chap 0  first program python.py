@@ -1,1 +1,0 @@
-print("Sehar is good")
