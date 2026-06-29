@@ -1,0 +1,83 @@
+DUPLICATE FILE REPORT
+============================================================
+
+Duplicate #1
+Original : C:\Users\Sehar Ali\Downloads\Documents\BS-Course-Outlines-Session-2021-2025 (1).docx
+Duplicate: C:\Users\Sehar Ali\Downloads\Documents\BS-Course-Outlines-Session-2021-2025.docx
+Action   : Pending
+
+Duplicate #2
+Original : C:\Users\Sehar Ali\Downloads\Documents\Course Outline Sample-1 (1).docx
+Duplicate: C:\Users\Sehar Ali\Downloads\Documents\Course Outline Sample-1.docx
+Action   : Pending
+
+Duplicate #3
+Original : C:\Users\Sehar Ali\Downloads\Documents\Course Outline Sample-1 (1).docx
+Duplicate: C:\Users\Sehar Ali\Downloads\Documents\Course Outline Sample.docx
+Action   : Pending
+
+Duplicate #4
+Original : C:\Users\Sehar Ali\Downloads\Documents\New Text Document(1).txt
+Duplicate: C:\Users\Sehar Ali\Downloads\Documents\New Text Document.txt
+Action   : Pending
+
+Duplicate #5
+Original : C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_btox17btox17btox - Copy.png
+Duplicate: C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_btox17btox17btox.png
+Action   : Pending
+
+Duplicate #6
+Original : C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_giwu5ogiwu5ogiwu (1).png
+Duplicate: C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_giwu5ogiwu5ogiwu (2).png
+Action   : Pending
+
+Duplicate #7
+Original : C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_giwu5ogiwu5ogiwu (1).png
+Duplicate: C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_giwu5ogiwu5ogiwu.png
+Action   : Pending
+
+Duplicate #8
+Original : C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_ji66apji66apji66 (1).png
+Duplicate: C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_ji66apji66apji66.png
+Action   : Pending
+
+Duplicate #9
+Original : C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_onycckonycckonyc (1).png
+Duplicate: C:\Users\Sehar Ali\Downloads\Images\Gemini_Generated_Image_onycckonycckonyc.png
+Action   : Pending
+
+Duplicate #10
+Original : C:\Users\Sehar Ali\Downloads\PDFs\10 class n (1).pdf
+Duplicate: C:\Users\Sehar Ali\Downloads\PDFs\10 class n.pdf
+Action   : Pending
+
+Duplicate #11
+Original : C:\Users\Sehar Ali\Downloads\PDFs\Course Outline Sample Experimental psychology (1).pdf
+Duplicate: C:\Users\Sehar Ali\Downloads\PDFs\Course Outline Sample Experimental psychology.pdf
+Action   : Pending
+
+Duplicate #12
+Original : C:\Users\Sehar Ali\Downloads\PDFs\inter result (1).pdf
+Duplicate: C:\Users\Sehar Ali\Downloads\PDFs\inter result.pdf
+Action   : Pending
+
+Duplicate #13
+Original : C:\Users\Sehar Ali\Downloads\PDFs\occupational psy (1).pdf
+Duplicate: C:\Users\Sehar Ali\Downloads\PDFs\occupational psy.pdf
+Action   : Pending
+
+Duplicate #14
+Original : C:\Users\Sehar Ali\Downloads\PDFs\Sehar Ali.... CV (1).pdf
+Duplicate: C:\Users\Sehar Ali\Downloads\PDFs\Sehar Ali.... CV.pdf
+Action   : Pending
+
+Duplicate #15
+Original : C:\Users\Sehar Ali\Downloads\PDFs\Sehar cv (3).pdf
+Duplicate: C:\Users\Sehar Ali\Downloads\PDFs\Sehar cv_compressed (1).pdf
+Action   : Pending
+
+Duplicate #16
+Original : C:\Users\Sehar Ali\Downloads\Psychology Scales Collection - Google Drive_files\saved_resource(1).html
+Duplicate: C:\Users\Sehar Ali\Downloads\Psychology Scales Collection - Google Drive_files\saved_resource.html
+Action   : Pending
+
