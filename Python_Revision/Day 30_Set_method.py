@@ -1,99 +1,160 @@
 # =====================================================================
-#                PYTHON SET OPERATORS & SIGNS EXERCISE
-# =====================================================================
-# Python mein Sets par kaam karne ke liye do tareeqe hote hain:
-# 1. Built-in Methods (jaise .union(), .intersection())
-# 2. Math Operators/Signs (jaise |, &, -, ^)
-#
-# Neeche sirf un signs aur operators ki list hai jo Python mein use hote hain.
+#             PYTHON SETS: ALL SIGNS & METHODS PRACTICE SHEET
 # =====================================================================
 
-# Practice ke liye do basic sets:
-A = {1, 2, 3, 4}
-B = {3, 4, 5, 6}
+# ---------------------------------------------------------------------
+# 1. UNION (Milaap)
+# Sign: |
+# Method: .union()
+# ---------------------------------------------------------------------
+fruits_1 = {"apple", "banana"}
+fruits_2 = {"banana", "orange", "mango"}
 
-# ---------------------------------------------------------------------
-# 1. Union ( Sign: | )
-# ---------------------------------------------------------------------
-# Naam: Pipe Operator (Union)
-# Kaam: Dono sets ke saare elements ko mila kar ek naya set banata hai.
-union_result = A | B 
-print("Union (A | B):", union_result)  
-# Output: {1, 2, 3, 4, 5, 6}
+# A. Sign ke sath:
+union_with_sign = fruits_1 | fruits_2
+# B. Method ke sath:
+union_with_method = fruits_1.union(fruits_2)
 
-
-# ---------------------------------------------------------------------
-# 2. Intersection ( Sign: & )
-# ---------------------------------------------------------------------
-# Naam: Ampersand Operator (Intersection)
-# Kaam: Sirf un items ko nikalta hai jo dono sets mein common/same hon.
-intersection_result = A & B 
-print("Intersection (A & B):", intersection_result)  
-# Output: {3, 4}
+print("1. UNION OUTPUTS:")
+print("Sign (|) ->", union_with_sign)      # Output: {'apple', 'banana', 'orange', 'mango'}
+print("Method  ->", union_with_method)    # Output: {'apple', 'banana', 'orange', 'mango'}
+print("-" * 50)
 
 
 # ---------------------------------------------------------------------
-# 3. Difference ( Sign: - )
+# 2. INTERSECTION (Common elements)
+# Sign: &
+# Method: .intersection()
 # ---------------------------------------------------------------------
-# Naam: Minus Operator (Difference)
-# Kaam: Pehle set ke wo elements jo doosre set mein maujood nahi hain.
-difference_result = A - B 
-print("Difference (A - B):", difference_result)  
-# Output: {1, 2} (Kyunke 3, 4 set B mein bhi hain)
+lucknow_users = {"Ali", "Sara", "Zain"}
+karachi_users = {"Zain", "Raza", "Ali"}
 
+# A. Sign ke sath:
+inter_with_sign = lucknow_users & karachi_users
+# B. Method ke sath:
+inter_with_method = lucknow_users.intersection(karachi_users)
 
-# ---------------------------------------------------------------------
-# 4. Symmetric Difference ( Sign: ^ )
-# ---------------------------------------------------------------------
-# Naam: Caret Operator (Symmetric Difference)
-# Kaam: Wo elements jo dono sets mein common NAHOON (yaani un-common items).
-sym_diff_result = A ^ B 
-print("Symmetric Difference (A ^ B):", sym_diff_result)  
-# Output: {1, 2, 5, 6}
-
-
-# ---------------------------------------------------------------------
-# 5. Subset Check ( Sign: <= )
-# ---------------------------------------------------------------------
-# Naam: Less than or Equal to (Subset Check)
-# Kaam: Check karta hai kya pehle set ke SAARE items doosre set mein hain? (True/False)
-small_set = {1, 2}
-is_subset = small_set <= A 
-print("Subset Check (small_set <= A):", is_subset)  
-# Output: True (Kyunke {1, 2} poora ka poora set A mein hai)
+print("2. INTERSECTION OUTPUTS:")
+print("Sign (&) ->", inter_with_sign)      # Output: {'Ali', 'Zain'}
+print("Method  ->", inter_with_method)    # Output: {'Ali', 'Zain'}
+print("-" * 50)
 
 
 # ---------------------------------------------------------------------
-# 6. Superset Check ( Sign: >= )
+# 3. DIFFERENCE (Pehle set mein ho, doosre mein na ho)
+# Sign: -
+# Method: .difference()
 # ---------------------------------------------------------------------
-# Naam: Greater than or Equal to (Superset Check)
-# Kaam: Check karta hai kya pehle set mein doosre set ke SAARE items maujood hain? (True/False)
-is_superset = A >= small_set 
-print("Superset Check (A >= small_set):", is_superset)  
-# Output: True (Kyunke A bada set hai jo {1, 2} ko apne andar rakhta hai)
+all_students = {"John", "Emma", "Sam", "Harry"}
+present_students = {"Emma", "Harry"}
 
+# A. Sign ke sath:
+absent_sign = all_students - present_students
+# B. Method ke sath:
+absent_method = all_students.difference(present_students)
 
-# ---------------------------------------------------------------------
-# 7. Proper Subset ( Sign: < )
-# ---------------------------------------------------------------------
-# Naam: Less than (Proper Subset)
-# Kaam: Subset check karta hai, lekin dono sets bilkul barabar (equal) nahi hone chahiye.
-set_x = {1, 2}
-set_y = {1, 2}
-print("Proper Subset (set_x < A):", set_x < A)    # Output: True (Kyunke A bada hai)
-print("Proper Subset (set_x < set_y):", set_x < set_y) # Output: False (Kyunke dono bilkul barabar hain)
+print("3. DIFFERENCE OUTPUTS (Absent Students):")
+print("Sign (-) ->", absent_sign)        # Output: {'John', 'Sam'}
+print("Method  ->", absent_method)      # Output: {'John', 'Sam'}
+print("-" * 50)
 
 
 # ---------------------------------------------------------------------
-# 8. Proper Superset ( Sign: > )
+# 4. SYMMETRIC DIFFERENCE (Jo dono mein common NAHOON)
+# Sign: ^
+# Method: .symmetric_difference()
 # ---------------------------------------------------------------------
-# Naam: Greater than (Proper Superset)
-# Kaam: Superset check karta hai, lekin dono sets bilkul barabar nahi hone chahiye.
-print("Proper Superset (A > set_x):", A > set_x)    # Output: True
-print("Proper Superset (set_y > set_x):", set_y > set_x) # Output: False
+tea_lovers = {"Asif", "Bilal", "Sana"}
+coffee_lovers = {"Sana", "Danial", "Asif"}
+
+# A. Sign ke sath:
+exclusive_sign = tea_lovers ^ coffee_lovers
+# B. Method ke sath:
+exclusive_method = tea_lovers.symmetric_difference(coffee_lovers)
+
+print("4. SYMMETRIC DIFFERENCE OUTPUTS:")
+print("Sign (^) ->", exclusive_sign)      # Output: {'Bilal', 'Danial'}
+print("Method  ->", exclusive_method)    # Output: {'Bilal', 'Danial'}
+print("-" * 50)
 
 
-# =====================================================================
-# Tip: Is code ko copy kar ke VS Code mein 'set_signs.py' ke naam se save 
-# karein aur run kar ke check karein!
-# =====================================================================
+# ---------------------------------------------------------------------
+# 5. UPDATE METHODS (Asal set ko badal dena)
+# Signs: |= (for Union update), &= (for Intersection update)
+# Methods: .update() , .intersection_update()
+# ---------------------------------------------------------------------
+my_skills = {"Python", "HTML"}
+new_skills = {"CSS", "JavaScript", "Python"}
+
+# A. .update() (Yaane Union Update: Asal set mein naye items jod dena)
+my_skills.update(new_skills)  # my_skills |= new_skills bhi likh sakte hain
+print("5. UPDATE OUTPUT:")
+print("After .update() ->", my_skills)   # Output: {'Python', 'HTML', 'CSS', 'JavaScript'}
+
+# B. .intersection_update() (Sirf common items ko asal set mein rakhna, baqi delete)
+hardware = {"RAM", "CPU", "Mouse"}
+input_devices = {"Mouse", "Keyboard"}
+hardware.intersection_update(input_devices)
+print("After .intersection_update() ->", hardware)  # Output: {'Mouse'}
+print("-" * 50)
+
+
+# ---------------------------------------------------------------------
+# 6. DISJOINT CHECK (Kya dono sets bilkul juda/alag hain?)
+# No Sign (Sirf method hota hai)
+# Method: .isdisjoint() -> True deta hai agar kuch bhi common na ho
+# ---------------------------------------------------------------------
+veg_food = {"Roti", "Dal"}
+non_veg_food = {"Chicken", "Fish"}
+mix_food = {"Roti", "Chicken"}
+
+print("6. ISDISJOINT OUTPUTS:")
+print("Are Veg and Non-Veg totally different? ->", veg_food.isdisjoint(non_veg_food)) # Output: True (Koi common nahi)
+print("Are Veg and Mix totally different?     ->", veg_food.isdisjoint(mix_food))     # Output: False ('Roti' common hai)
+print("-" * 50)
+
+
+# ---------------------------------------------------------------------
+# 7. REMOVING ELEMENTS (Set se items delete karna)
+# Methods: .remove() , .discard() , .pop() , .clear()
+# ---------------------------------------------------------------------
+tools = {"VS Code", "GitHub", "Terminal", "Docker"}
+
+# A. .remove() -> Specified item delete karta hai. Agar item na ho to CRASH kar deta hai.
+tools.remove("GitHub")
+print("7. REMOVE OUTPUT:")
+print("After remove('GitHub') ->", tools) # Output: {'VS Code', 'Terminal', 'Docker'}
+
+# B. .discard() -> Safe delete. Agar item set mein na ho, to CRASH NAHI karta.
+tools.discard("Not-In-Set") # Kuch nahi hoga, code smooth chalega
+tools.discard("Docker")
+print("After discard('Docker') ->", tools) # Output: {'VS Code', 'Terminal'}
+
+# C. .pop() -> Randomly (apni marzi se koi bhi) aik element nikalta hai aur return karta hai.
+popped_item = tools.pop()
+print(f"Popped item -> {popped_item}") 
+print("After pop() ->", tools)            # Bacha hua set print hoga
+
+# D. .clear() -> Set ko poora khali kar deta hai.
+tools.clear()
+print("After clear() ->", tools)          # Output: set() (Khali set)
+print("-" * 50)
+
+
+# ---------------------------------------------------------------------
+# 8. SUBSET & SUPERSET (Chota set aur Bada set)
+# Signs: <= (Subset), >= (Superset)
+# Methods: .issubset() , .issuperset()
+# ---------------------------------------------------------------------
+parent_bag = {"Notebook", "Pen", "Eraser", "Scale"}
+child_bag = {"Pen", "Eraser"}
+
+print("8. SUBSET & SUPERSET OUTPUTS:")
+# Kya child_bag ke saare items parent_bag mein hain? (Subset)
+print("Is child_bag <= parent_bag?  ->", child_bag <= parent_bag)             # Output: True
+print("child_bag.issubset(parent)   ->", child_bag.issubset(parent_bag))       # Output: True
+
+# Kya parent_bag ke paas child_bag ke saare items hain? (Superset)
+print("Is parent_bag >= child_bag?  ->", parent_bag >= child_bag)             # Output: True
+print("parent.issuperset(child_bag) ->", parent_bag.issuperset(child_bag))     # Output: True
+print("=" * 50)
